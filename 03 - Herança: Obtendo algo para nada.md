@@ -23,10 +23,11 @@ Composição significa que uma classe é implementada usando-se variáveis inter
 Os métodos e atributos protegidos são aqueles aos quais você deseja que apenas as subclasses tenham acesso. Não deixe tais métodos públicos. Apenas aqueles com amplo conhecimento da classe devem usar métodos e atributos protegidos. Isso significa não expor funcionalidades internas como métodos da classe em sua interface pública mas sim as suas filhas para que elas herdem a implementação. Não é de utilidade alguma expor esses métodos aos outros objetos já que eles são de composição intrínseca de sua própria classe. 	
 Pense: para que eu iria expor a maneira como eu pago as minhas contas ou até mesmo o modo como eu me alimento às outras pessoas? Isso é parte do como eu faço algo ou seja a minha implementação. Nem TODOS os comportamentos devem ser expostos as subclasses ou são interessantes para elas.
 
-## Formas de Sobreposição 
-###Novos métodos e atributos 
+# Formas de Sobreposição 
+## Novos métodos e atributos 
 Um novo método ou atributo é um método ou atributo que aparece na filha, mas não aparece na progenitora. A filha acrescenta o novo método ou atributo em sua interface. Você viu novos métodos no exemplo ThreeDimensionalPoint. ThreeDimensionalPoint acrescenta os novos métodos getZCoordinate() e setZCoordinate(). Você pode adicionar nova funcionalidade na interface de sua filha, adicionando novos métodos e atributos.
-Métodos e atributos recursivos
+
+## Métodos e atributos recursivos
 Um método ou atributo recursivo é definido na progenitora ou em alguma outra ancestral, mas não na filha. Quando você acessa o método ou atributo, a mensagem é enviada para cima na hierarquia, até que uma definição do método seja encontrada. O mecanismo é igual àquele apresentado na seção sobre métodos e atributos sobrepostos.
 Você viu métodos recursivos no código-fonte de TwoDimensionalPoint e ThreeDimensionalPoint. getXCoordinate() é um exemplo de método recursivo, pois ele é definido por TwoDimensionalPoint e não por ThreeDimensionalPoint.
 Os métodos sobrepostos também podem se comportar de forma recursiva. Embora um método sobreposto apareça na filha, a maioria das linguagens orientadas a objetos fornece um mecanismo que permite a um método sobreposto chamar a versão da progenitora (ou de algum outro ancestral) do método. Essa capacidade permite que você enfatize a versão da superclasse, enquanto define novo comportamento na subclasse. Na linguagem Java, a palavra-chave super dá acesso à implementação de uma progenitora.
