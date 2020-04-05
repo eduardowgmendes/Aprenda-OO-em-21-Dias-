@@ -22,9 +22,9 @@ O verdadeiro encapsulamento é imposto em nível de linguagem, através de const
 Um TAD é um conjunto de dados e um conjunto de operações sobre esses dados. Os TADs permite que você defina novos tipos na linguagem, ocultando dados internos e o estado, atrás de uma interface bem definida. Essa interface apresenta o TAD como uma única unidade atômica.  
 Modificadores de Acesso
 São controles de restrição a membros e métodos de uma classe. Quase todas as linguagens fornecem  mecanismos de controle de acesso que em geral em um modo mais básico são divididos em três níveis: 
-    - Privado
-    - Protegido
-    - Público
+* Privado
+* Protegido
+* Público
 O nível de acesso que você escolhe é muito importante para seu projeto. Todo comportamento que você queira tornar visível para o mundo, precisa ter acesso público. Tudo que você quiser ocultar do mundo exterior precisa ter acesso protegido ou privado. O Java ainda define mais um modificador chamado de Protegido pelo Pacote. 
 
 ## Porque você deve encapsular? 
@@ -33,9 +33,9 @@ Independência significa que você pode reutilizar o objeto em qualquer parte. Q
 O encapsulamento permite que você tome transparentes as alterações em seu objeto. Desde que você não altere sua interface, todas as alterações permanecerão transparentes para aqueles que estiverem usando o objeto. O encapsulamento permite que você atualize seu componente, forneça uma implementação mais eficiente ou corrija erros - tudo isso sem ter de tocar nos outros objetos de seu programa. Os usuários de seu objeto se beneficiarão automaticamente de todas as alterações que você fizer.
 Usar um objeto encapsulado não causará efeitos colaterais inesperados entre o objeto e o restante do programa . Como o objeto tem implementação independente, ele não tera nenhuma outra interação com o restante do programa. além de sua interface.
 Agora, você está em um ponto onde podemos falar sobre algumas generalidades a respeito do encapsulamento. Você viu que o encapsulamento permite escrever componentes de software com implementações independentes. As três características do encapsulamento eficaz são:
-    - Abstração 
-    - Ocultação da implementação 
-    - Divisão de responsabilidade
+* Abstração 
+* Ocultação da implementação 
+* Divisão de responsabilidade
 Vamos ver mais profundamente cada característica, para aprender a melhor maneira de obter o encapsulamento.
 
 ## Abstração: aprendendo a pensar e programar de forma abstrata
@@ -53,17 +53,21 @@ Neste ponto, você pode formular algumas regras para a abstração eficaz:
 Trate do caso geral e não do caso específico. 
 Ao confrontar vários problemas diferentes, procure o que for comum a todos. Tente ver um conceito e não um caso específico.
 Não se esqueça de que você tem um problema a resolver. A abstração é valiosa, mas não descuide do problema na esperança de escrever código abstrato.
+
 A abstração pode não estar prontamente aparente. A abstração pode não saltar à sua frente na primeira, segunda ou terceira vez que você resolver um problema que está sujeito a ser abstraído.
 Prepare-se para a falha. É quase impossível escrever uma abstração que funcione em todas as situações. Você verá por que, posteriormente ainda hoje.
+
 Não caia na paralisia da abstração. Resolva os problemas que você encontrar primeiro. Veja a abstração com o um bônus e não com o o objetivo final. Caso contrário, você vai se deparar com a possibilidade de prazos finais perdidos e abstração incorreta. Existem ocasiões para abstrair e ocasiões em que a abstração não é apropriada.
 Uma boa regra geral é abstrair algo que você tiver implementado três vezes de maneira análoga. A medida que você ganhar experiência, aprenderá a escolher a abstração mais rapidamente.
+
 Nem sempre você pode reconhecer oportunidades para uma abstração. Talvez você tenha de resolver um problema várias vezes, antes que uma abstração se torne aparente. Às vezes, diferentes situações ajudam a encontrar uma abstração eficaz e, mesmo então, a abstração pode precisar de alguma conversão. A abstração pode demorar a amadurecer.
+
 A abstração pode tomar um componente encapsulado mais reutilizável, pois ele está personalizado para um domínio de problemas e não para um uso específico. Entretanto, há ma is coisas importantes quanto ao encapsulamento do que a simples reutilização de componentes. O encapsulamento também é importante por ocultar os detalhes internos. O tipo abstrato de dados é um bom lugar para ver em seguida, na busca do encapsulamento eficaz.
 Guardando seus segredos através da ocultação da implementação
 A abstração é apenas uma característica do encapsulamento eficaz. Você pode escrever código abstrato que não é encapsulado. Em vez disso, você também precisa ocultar as implementações internas de seus objetos.
 A ocultação da implementação tem duas vantagens:
-    - Ela protege seu objeto de seus usuários.
-    - Ela protege os usuários de seu objeto do próprio objeto.
+* Ela protege seu objeto de seus usuários.
+* Ela protege os usuários de seu objeto do próprio objeto.
 
 ## Acoplamento 
 Acoplamento é o termo que descreve a dependência demasiada de uma classe à implementação da outra. Em geral isso representa uma falha no encapsulamento e não é bom para um projeto. Todas as entidades devem ser independentes uma das outras. 

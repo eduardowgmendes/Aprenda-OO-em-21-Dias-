@@ -2,8 +2,11 @@
 
 ## Introdução á programação orientada a objetos
 A Orientação a Objetos é um paradigma de programação baseada no conceito de “objetos”, que contém características, comportamentos e estados. Cada objeto é independente e exerce um papel no software. Você pode criar diversos objetos diferentes. Dessa forma cada objeto “interage” com outros objetos na resolução de um problema.
+
 Assim como o mundo real é constituído de objetos, da mesma forma o é o software orientado a objetos. Em uma linguagem de programação OO pura, tudo é um objeto, desde os tipos mais básicos, como inteiros e lógicos, até instâncias de classe mais complexas; nem todas as linguagens orientadas a objetos chegam a esse ponto. Em algumas como Java, primitivas como int e float, não são tratadas como objetos. 
+
 Orientação a objetos é um paradigma de programação que representa uma evolução natural a outros paradigmas precursores como o Procedural e o Modular. Ela permite que você programe em um nível mais conceitual do domínio do problema o fazendo pensar em seus programas em termos naturais e reais. Em vez de modelar seu programa como um conjunto de procedimentos e dados separados (termos do mundo dos computadores), você modela seu programa em objetos. Os objetos permitem que você modela seus programas no substantivos, verbos e adjetivos do domínio de seu problema.
+
 Quando recua e pensa nos termos do problemas que está se resolvendo, você evita se emaranhar nos detalhes da implementação. É claro que alguns de seus objetos de alto nível precisarão interagir com o computador. Entretanto, o objeto isolará essas interações do restante do sistema. 
 
 ### Objeto 
@@ -13,6 +16,7 @@ Rigorosamente falando, um objeto é uma instância de uma classe.
 ### Classe
 Assim como no mundo real, o mundo da POO grupa os objetos pelos seus comportamentos e atributos comuns. 
 A biologia classifica todos os cães, gatos, elefantes e seres humanos como mamíferos. Características  compartilhadas dão a essas criaturas separadas um senso de comunidade. No mundo do software, as classes agrupam objetos relacionados da mesma maneira. 
+
 Uma classe define todas as características comuns a um tipo de objeto. Especificamente, a classe define todos os atributos e comportamentos expostos pelo objeto. A classe define a quais mensagens seus objetos respondem. Quando um objeto quer exercer o comportamento de outro objeto ele não faz isso diretamente, mas pede ao outro objeto que se mude, normalmente baseado em alguma informação adicional. Frequentemente, isso é referido como ‘envio de mensagem’.
 
 #### Definição Formal 
@@ -48,11 +52,11 @@ Segundo, um objeto poderia conter outros objetos. Assim, como os objetos compõe
 Hoje, fizemos um passeio pela programação orientada a objetos. Você começou vendo a evolução dos principais paradigmas de programação e aprendeu alguns dos fundamentos da POO. Agora, você deve entender as ideias conceituais por trás da OO, como o que é uma classe e como os objetos se comunicam. 
 Definições são importantes, mas nunca devemos perder o rumo do que estamos tentando fazer usando OO, nos atendo ao ‘como’ do que estivermos fazendo. As seis vantagens e objetivos resumem o que a programação orientada a objetos espera cumprir: 
 
-- Natural 
-- Confiável 
-- Reutilizável  
-- Manutenível 
-- Extensível 
-- Oportuna 
+* Natural 
+* Confiável 
+* Reutilizável  
+* Manutenível 
+* Extensível 
+* Oportuna 
 
 Você nunca deve perder esses objetivos de vista.
