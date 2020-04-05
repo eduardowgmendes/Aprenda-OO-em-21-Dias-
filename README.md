@@ -1,7 +1,5 @@
 ## Aprenda OO em 21 Dias
-Repositório de Estudos do Livro Aprenda Orientação a Objetos em 21 Dias do Anthony Sintes. O conteúdo é disposto em doses homeopáticas diárias onde cada um dos itens do índice abaixo têm que ser lido por dia. Por razões óbvias não colocarei todo o conteúdo do livro disponível aqui, mas ao menos a introdução de conceitos básicos estarão presentes aqui onde cobrirei apenas a introdução do que é Orientação a Objeto de uma ótica mais teórica, porém no livro você encontrará todo o conteúdo prático e exercícios. Site para adquirir o livro: 
-
-![]()
+Repositório de Estudos do Livro Aprenda Orientação a Objetos em 21 Dias do Anthony Sintes. O conteúdo é disposto em doses homeopáticas diárias onde cada um dos itens do índice abaixo têm que ser lido por dia. Por razões óbvias não colocarei todo o conteúdo do livro disponível aqui, mas ao menos a introdução de conceitos básicos estarão presentes aqui onde cobrirei apenas a introdução do que é Orientação a Objeto de uma ótica mais teórica, porém no livro você encontrará todo o conteúdo prático e exercícios. Site para adquirir o livro:
 
 * [Amazon](https://www.amazon.com.br/Aprenda-Programa%C3%A7%C3%A3o-Orientada-Objetos-Dias/dp/853461461X)    
 * [Saraiva](https://www.saraiva.com.br/aprenda-programacao-orientada-a-objetos-em-21-dias-103390/p)
